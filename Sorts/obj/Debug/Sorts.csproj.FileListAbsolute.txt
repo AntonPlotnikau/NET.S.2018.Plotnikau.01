@@ -10,3 +10,9 @@ E:\training\NET.S.2018.Plotnikau.01\Sorts\obj\Debug\Sorts.csprojResolveAssemblyR
 E:\training\NET.S.2018.Plotnikau.01\Sorts\obj\Debug\Sorts.csproj.CoreCompileInputs.cache
 E:\training\NET.S.2018.Plotnikau.01\Sorts\obj\Debug\Sorts.dll
 E:\training\NET.S.2018.Plotnikau.01\Sorts\obj\Debug\Sorts.pdb
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\bin\Debug\Sorts.dll
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\bin\Debug\Sorts.pdb
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\obj\Debug\Sorts.csprojResolveAssemblyReference.cache
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\obj\Debug\Sorts.csproj.CoreCompileInputs.cache
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\obj\Debug\Sorts.dll
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\Sorts\obj\Debug\Sorts.pdb

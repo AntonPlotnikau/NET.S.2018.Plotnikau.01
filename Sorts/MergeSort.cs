@@ -29,7 +29,7 @@
         /// <param name="right">Right bound of the array.</param>
         private static void Sorting(int[] array, int left, int right)
         {
-            var size = (right - left) / 2;
+            var size = (right - left) + 1;
             if (size < 2) 
             {
                 return;

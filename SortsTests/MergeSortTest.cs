@@ -20,7 +20,7 @@ namespace SortsTests
 
             MergeSort.Sorting(sourceArray);
 
-            Assert.ReferenceEquals(sourceArray, expectedArray);
+            CollectionAssert.AreEqual(sourceArray, expectedArray);
         }
 
         /// <summary>
