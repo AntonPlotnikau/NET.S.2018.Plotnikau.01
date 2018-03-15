@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorts", "Sorts\Sorts.csproj", "{944E0B17-1B6B-4FAB-9C35-8321213BF488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortsTests", "SortsTests\SortsTests.csproj", "{BA3180B7-DDD7-4D9E-A7EB-91B86572F4D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorts.Tests", "SortsTests\Sorts.Tests.csproj", "{BA3180B7-DDD7-4D9E-A7EB-91B86572F4D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
