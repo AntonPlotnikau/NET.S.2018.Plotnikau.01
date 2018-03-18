@@ -1,4 +1,6 @@
-﻿namespace Sorts
+﻿using System;
+
+namespace Sorts
 {
     /// <summary>
     /// This class sorts a numeric array by a quick method.
@@ -12,7 +14,12 @@
         /// <param name="array">The source array to sort.</param>
         public static void Sorting(int[] array)
         {
-            if (array == null || array.Length < 1)
+            if (array == null)
+            {
+                throw new ArgumentNullException(nameof(array));
+            }
+
+            if (array.Length < 1)
             {
                 return;
             }

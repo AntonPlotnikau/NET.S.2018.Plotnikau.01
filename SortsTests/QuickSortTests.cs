@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sorts;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Sorts.Tests
 {
@@ -15,8 +15,17 @@ namespace Sorts.Tests
         [TestMethod]
         public void Sorting_UnsortedArray_SortedArray()
         {
-            int[] sourceArray = { 3, 2, 4, 1, 5 };
-            int[] expectedArray = { 1, 2, 3, 4, 5 };
+            int[] sourceArray = new int[1000000];
+            sourceArray[0] = int.MinValue;
+            sourceArray[1] = int.MaxValue;
+            Random rand = new Random();
+            for (int i = 2; i < sourceArray.Length; i++) 
+            {
+                sourceArray[i] = rand.Next();
+            }
+
+            int[] expectedArray = sourceArray;
+            Array.Sort(expectedArray);
 
             QuickSort.Sorting(sourceArray);
 
@@ -38,16 +47,11 @@ namespace Sorts.Tests
         }
 
         /// <summary>
-        /// Checks sort for null reference processing.
+        /// Test generation of ArgumentNullException
         /// </summary>
         [TestMethod]
-        public void SortingNullTest()
-        {
-            int[] sourceArray = null;
-
-            QuickSort.Sorting(sourceArray);
-
-            Assert.IsNull(sourceArray);
-        }
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void IsNullTest()
+            => QuickSort.Sorting(null);
     }
 }

@@ -12,3 +12,4 @@ E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\SortsTests\bin\Debug\Microsoft.Vis
 E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\SortsTests\obj\Debug\Sorts.Tests.csproj.CoreCompileInputs.cache
 E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\SortsTests\obj\Debug\SortsTests.dll
 E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\SortsTests\obj\Debug\SortsTests.pdb
+E:\NET.S.2018.Plotnikau.01\NET.S.Plotnikau.01\SortsTests\obj\Debug\Sorts.Tests.csprojResolveAssemblyReference.cache
