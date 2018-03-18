@@ -24,9 +24,13 @@ namespace Sorts.Tests
                 sourceArray[i] = rand.Next();
             }
 
-            int[] expectedArray = sourceArray;
-            Array.Sort(expectedArray);
+            int[] expectedArray = new int[1000000];
+            for (int i = 0; i < sourceArray.Length; i++)
+            {
+                expectedArray[i] = sourceArray[i];
+            }
 
+            Array.Sort(expectedArray);
             MergeSort.Sorting(sourceArray);
 
             CollectionAssert.AreEqual(sourceArray, expectedArray);

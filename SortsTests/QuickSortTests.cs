@@ -19,14 +19,18 @@ namespace Sorts.Tests
             sourceArray[0] = int.MinValue;
             sourceArray[1] = int.MaxValue;
             Random rand = new Random();
-            for (int i = 2; i < sourceArray.Length; i++) 
+            for (int i = 2; i < sourceArray.Length; i++)
             {
                 sourceArray[i] = rand.Next();
             }
 
-            int[] expectedArray = sourceArray;
-            Array.Sort(expectedArray);
+            int[] expectedArray = new int[1000000];
+            for (int i = 0; i < sourceArray.Length; i++)
+            {
+                expectedArray[i] = sourceArray[i];
+            }
 
+            Array.Sort(expectedArray);
             QuickSort.Sorting(sourceArray);
 
             CollectionAssert.AreEqual(sourceArray, expectedArray);
